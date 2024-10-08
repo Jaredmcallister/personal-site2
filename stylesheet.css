@@ -13,7 +13,9 @@ body{
 div:nth-child(2){
   background-color: rgb(128, 240, 173);
 }
-
+nav>img{
+  display: none;
+}
 
 input{
   max-width: 99%;
@@ -22,7 +24,7 @@ input{
 html, body{
   height: 100%;
   margin: 0%
-  padding: 0%
+  padding: 0%;
 }
 
 #kangaroo{
@@ -43,3 +45,17 @@ justify-content: left;
 #hobbies :nth-child(2){
   text-indent: 50px;
 }
+#hobbies :nth-child(3)
+{
+  text-indent: 175px;
+}
+@media (max-width: 610px){
+  nav>img {
+    display: initial;
+  }
+  a {
+    display:none;
+  }
+}
+  
+
