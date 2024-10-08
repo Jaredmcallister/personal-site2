@@ -7,32 +7,39 @@ body{
   background-color: blueviolet;
   flex-direction: column;
 }
-#first-block{
-  display: flexbox ;
-background-color: chartreuse;
-height: 200px;
-width: 400px;
-}
-#second-block{
+
   
-  border-radius: 45%;
-  background-color: cornflowerblue;
-  height: 200px;
-  width: 400px;
-  margin: 300px;
-  
-}
+
 div:nth-child(2){
-  background-color: lightcoral;
+  background-color: rgb(128, 240, 173);
 }
 
-#third-block{
-  
-  background-color: red;
-  height: 200px;
-  width: 400px;
-}
+
 input{
   max-width: 99%;
   max-height: 99%;
+}
+html, body{
+  height: 100%;
+  margin: 0%
+  padding: 0%
+}
+
+#kangaroo{
+  padding: 0;
+  display: block;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#hobbies{
+display: flex;
+flex-direction: row;
+justify-content: left;
+  background-color: rgb(8, 0, 255);
+  width: 200px;
+}
+#hobbies :nth-child(2){
+  text-indent: 50px;
 }
